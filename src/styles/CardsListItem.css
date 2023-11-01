@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    align-items: center;
+    background: white;
+    color: black;
+    font-size: large;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    width: 100%;
+}
+
+.active-card {
+    background: black;
+    color: white;
+    font-size: large;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+    width: 100%;
+}
+
+@media (min-width: 769px) {
+    .card {
+        font-size: medium; 
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        font-size: medium; 
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        font-size: small; 
+    }
+}

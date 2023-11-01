@@ -1,0 +1,37 @@
+span {
+    font-size: large;
+}
+
+select, 
+input {
+    border-color: #dddddd;
+    padding: 12px;
+}
+
+.address select,
+.address input {
+    max-width: 75%; 
+}
+
+.payment-small {
+    max-width: 50%;
+}
+
+
+@media (max-width: 768px) {
+
+    .address select,
+    .address input {
+        max-width: 20%; 
+    }
+
+
+    .payment input {
+        max-width: 30%; 
+    }
+
+
+    .payment-small {
+        max-width: 15%; 
+    }
+}
